@@ -1,0 +1,182 @@
+.wpservicecom-wrap {
+
+}
+
+.wpservicecom-header {
+  padding:10px;
+}
+
+.wpservicecom-logo {
+  display:block;
+  width:286px;
+  height:39px;
+  background:url("../images/serviceLogo.svg") no-repeat center center;
+  background-size:cover;
+  text-decoration:none;
+}
+
+.wpservicecom-header-content p {
+  font-size:16px;
+}
+
+.wpservicecom-stores {
+  text-align:left;
+  margin:20px 0px;
+}
+
+.wpservicecom-stores a {
+  display:inline-block;
+  text-decoration:none;
+  background-repeat:no-repeat;
+  background-position:center center;
+  text-indent:-99999px;
+}
+
+.wpservicecom-applestore {
+  margin-right:5px;
+  width:140px;
+  height:50px;
+  background-image:url("../images/appStore.svg");
+}
+
+.wpservicecom-playstore {
+  margin-left:5px;
+  width:140px;
+  height:50px;
+  background-image:url("../images/playStore.svg");
+}
+
+.wpservicecom-links {
+
+}
+
+.wpservicecom-link {
+  margin:0px 0px 10px 0px;
+}
+
+.wpservicecom-link a {
+  font-size:16px;
+}
+
+.wpservicecom-link p {
+  margin:0px 0px 10px 0px;
+}
+
+.wpservicecom-shortcode {
+  margin:15px 0 15px;
+  background: #fff;
+  border-left: 4px solid #46b450;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  padding: 1px 12px;
+}
+
+.wpservicecom-shortcode.wpservicecom-error {
+  border-left-color:#dc3232;
+}
+
+#wpservicecom_validation {
+  margin:5px 0 15px;
+  background: #f6f6f6;
+  border-left: 4px solid #dc3232;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  padding: 1px 12px;
+  display:none;
+}
+
+.wpservicecom-content {
+  padding:20px 20px 0px 20px;
+  border:1px solid #ccc;
+  background:#fff;
+}
+
+.wpservicecom-content h3 {
+  margin-top:0px;
+}
+
+.wpservicecom-wrap .form-table td {
+  vertical-align:top;
+}
+
+.wpservicecom-button-row {
+  margin-bottom:20px;
+  overflow: hidden;
+}
+
+.wpservicecom-button {
+  width:150px;
+  height:54px;
+  position:relative;
+  float:left;
+  margin-right:20px;
+}
+
+.wpservicecom-button input {
+  opacity:0;
+  filter:alpha(opacity=0);
+  z-index:1;
+  position:absolute;
+}
+
+.wpservicecom-button label {
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:contain;
+  display:block;
+  z-index:2;
+  opacity:0.5;
+  filter:alpha(opacity=50);
+  transition:opacity 0.3s ease-in;
+}
+
+.wpservicecom-button label:hover,
+.wpservicecom-button input:checked+label {
+  opacity:1;
+}
+
+.wpservicecom-button-chat-white label {
+  background-image:url("../images/chat_now_w.png");
+}
+
+.wpservicecom-button-chat-black label {
+  background-color:#000;
+  background-image:url("../images/chat_now_b.png");
+}
+
+.wpservicecom-button-book-white label {
+  background-image:url("../images/book_now_w.png");
+}
+
+.wpservicecom-button-book-black label {
+  background-color:#000;
+  background-image:url("../images/book_now_b.png");
+}
+
+.wpservicecom-button-pay-white label {
+  background-image:url("../images/chat_now_w.png");
+}
+
+.wpservicecom-button-pay-black label {
+  background-color:#000;
+  background-image:url("../images/pay_now_b.png");
+}
+
+#wpservicecom_optional_text {
+  max-width:600px;
+  width:100%;
+  padding:10px;
+  overflow:auto;
+  height:100px;
+  line-height:20px;
+  font-size:14px;
+  margin-top:10px;
+}
+.wpservicecom_powered_by {
+  text-align:right;
+}
